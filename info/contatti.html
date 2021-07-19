@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contatti!</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  </head>
+  <body>
+
+    <h1>Per info compilare il modulo sottostante:</h1><br>
+
+
+
+
+
+  <form name="formmail" method="post" action="https://formspree.io/f/mjvjeraj" onsubmit="return controlloForm()">
+  <input type="hidden" name="_subject" value="Messaggio dal sito" />
+  <label for="nome">Nome e Cognome</label>
+  <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
+  <label for="tel">Telefono</label>
+  <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
+  <label for="msg">Messaggio</label>
+  <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
+  <input type="submit" value="Invia Richiesta">
+  </form>
+
+
+<style>
+  body{
+    background:#f3d5b5;
+  }
+  h1,h2{
+    color:#6b705c;
+    font-size:33px;
+padding-left: 5vh;
+  }
+
+
+    form {
+      font-family:Arial, Helvetica, sans-serif;
+      padding-left: 5vh;
+
+    }
+    label, input[type=text], textarea {
+      display: block;
+
+      box-sizing: border-box;
+      width: 30%;
+    }
+    input[type=text], textarea {
+      padding: 20px;
+      border: 3px solid #f3d5b5;
+      border-radius: 3px;
+      box-sizing: border-box;
+
+      margin-top: 5px;
+      margin-bottom: 15px;
+      resize:vertical;
+    }
+
+    input[type=submit] {
+      background-color: #000000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  @media only screen and (min-width:150px) and (max-width:800px) {
+    label, input[type=text], textarea {
+      display: block;
+
+      box-sizing: border-box;
+      width: 70%;
+    }
+  }
+      }
+
+</style>
+
+<br><br><br>
+
+<a href="../index.html" style="color:#000000"> Torna alla Homepage</a> <br>
+
+
+</body>
+</html>
