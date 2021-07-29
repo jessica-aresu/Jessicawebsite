@@ -1,0 +1,99 @@
+.header{
+  display: block;
+  position:sticky;
+}
+.head-banner{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+background-color:#607d8b;
+background-size: cover;
+background-position: center;
+background-blend-mode: multiply;
+
+}
+
+.icons-section{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+}
+
+form {
+      font-family:Arial, Helvetica, sans-serif;
+      padding-left: 3vh;
+
+    }
+    label, input[type=text], textarea {
+      display: block;
+
+      box-sizing: border-box;
+      width: 70%;
+    }
+    input[type=text], textarea {
+      padding: 20px;
+      border: 3px solid #607d8b;
+      border-radius: 3px;
+      box-sizing: border-box;
+
+      margin-top: 5px;
+      margin-bottom: 15px;
+      resize:vertical;
+    }
+
+    input[type=submit] {
+      background-color: #000000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+
+    A:link {
+      font-size: 15px }
+    A:visited {
+       font-size: 15px }
+    A:hover {
+       font-size: 17px
+
+    }
+ .img-fluid{
+   border-radius: 50%;
+ }
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+@media screen and (min-width: 768px){
+  .head-banner{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-color: #ddbea9;
+
+}
+label, input[type=text], textarea {
+      display: block;
+
+      box-sizing: border-box;
+      width: 30%;
+    }
+
+
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
